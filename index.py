@@ -9,3 +9,6 @@ color = "Yellow"
 print(color)
 
 # ejercicio 3 **********************************************************
+
+
+# Comando para imprimir en consola: /home/gitpod/.pyenv/shims/python /workspace/pythonbestpractice/index.py
