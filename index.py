@@ -29,5 +29,25 @@ print(the_new_string)
 
 # ejercicio 5 **********************************************************
 
+a = '</title>'
+b = '</html>'
+c = '<head>'
+d = '</body>'
+e = '<html>'
+f = '</head>'
+g = '<title>'
+h = '<body>'
+
+# ⬆ DON'T CHANGE THE CODE ABOVE ⬆
+# ↓ start coding below here ↓
+
+html_document = e+c+g+a+f+h+d+b
+
+print(html_document)
+
+# ejercicio 6 **********************************************************
+
+
+
 # Comando para imprimir en consola: /home/gitpod/.pyenv/shims/python /workspace/pythonbestpractice/index.py
 # Click derecho sobre el file que se quiere ver en la terminal y elegir la opcion: "Run Python File in Terminal"
