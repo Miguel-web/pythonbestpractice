@@ -47,7 +47,17 @@ print(html_document)
 
 # ejercicio 6 **********************************************************
 
+total = int(input('How much money do you have in your pocket\n'))
 
+# YOUR CODE HERE
+if total > 100: 
+    print('Give me your money!')
+elif total > 50:
+    print('Buy me some coffee you cheap')
+else: 
+    print('You are poor guy, go away')
+
+# ejercicio 7 ********************************************************** 
 
 # Comando para imprimir en consola: /home/gitpod/.pyenv/shims/python /workspace/pythonbestpractice/index.py
 # Click derecho sobre el file que se quiere ver en la terminal y elegir la opcion: "Run Python File in Terminal"
