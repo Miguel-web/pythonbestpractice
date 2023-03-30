@@ -74,5 +74,14 @@ print('Your wedding will cost '+str(price)+' dollars')
 
 # ejercicio 8 ********************************************************** 
 
+import random
+
+def get_randomInt():
+  	# CHANGE ONLY THIS LINE BELOW
+	random_number = random.randint(1, 10)
+	return random_number
+
+print(get_randomInt())
+
 # Comando para imprimir en consola: /home/gitpod/.pyenv/shims/python /workspace/pythonbestpractice/index.py
 # Click derecho sobre el file que se quiere ver en la terminal y elegir la opcion: "Run Python File in Terminal"
