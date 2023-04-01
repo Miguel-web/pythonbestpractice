@@ -83,5 +83,17 @@ def get_randomInt():
 
 print(get_randomInt())
 
+# ejercicio 9 ********************************************************** 
+
+def is_odd(my_number):
+  	return (my_number % 2 != 0)
+
+
+def my_main_code():
+    my_number = 45345
+    print(is_odd(my_number))
+
+# ejercicio 10 ********************************************************** 
+
 # Comando para imprimir en consola: /home/gitpod/.pyenv/shims/python /workspace/pythonbestpractice/index.py
 # Click derecho sobre el file que se quiere ver en la terminal y elegir la opcion: "Run Python File in Terminal"
