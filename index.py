@@ -95,5 +95,15 @@ def my_main_code():
 
 # ejercicio 10 ********************************************************** 
 
+def sum(number1,number2):
+    return number1 + number2
+
+total = sum(2,3)
+super_duper = sum(3445324, 53454423)
+print(total)
+print(super_duper)
+
+# ejercicio 11 ********************************************************** 
+
 # Comando para imprimir en consola: /home/gitpod/.pyenv/shims/python /workspace/pythonbestpractice/index.py
 # Click derecho sobre el file que se quiere ver en la terminal y elegir la opcion: "Run Python File in Terminal"
