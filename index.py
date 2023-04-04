@@ -105,5 +105,14 @@ print(super_duper)
 
 # ejercicio 11 ********************************************************** 
 
+# Define the function called "multi" that expects 2 parameters:
+def multi(num1, num2):
+    return num1 * num2
+# don't edit anything below this line
+return_value = multi(7,53812212)
+print(return_value)
+
+# ejercicio 12 ********************************************************** 
+
 # Comando para imprimir en consola: /home/gitpod/.pyenv/shims/python /workspace/pythonbestpractice/index.py
 # Click derecho sobre el file que se quiere ver en la terminal y elegir la opcion: "Run Python File in Terminal"
