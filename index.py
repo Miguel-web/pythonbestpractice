@@ -114,5 +114,14 @@ print(return_value)
 
 # ejercicio 12 ********************************************************** 
 
+# declarando una función normal para una multiplicación
+def multiply(p1, p2):
+    return p1 * p2
+
+# declarándola en una línea como una función lambda
+multiply = lambda p1,p2: p1 * p2
+
+# ejercicio 13 **********************************************************
+
 # Comando para imprimir en consola: /home/gitpod/.pyenv/shims/python /workspace/pythonbestpractice/index.py
 # Click derecho sobre el file que se quiere ver en la terminal y elegir la opcion: "Run Python File in Terminal"
