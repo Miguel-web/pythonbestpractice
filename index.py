@@ -130,5 +130,14 @@ is_odd = lambda num: (num % 2) != 0
 multy = lambda x, y: x * y
 print(multy(2,2))
 
+# ejercicio 15 **********************************************************
+
+rapid = lambda rapid_name: rapid_name[:-1]
+
+# From this line above, plese do not change code below
+print(rapid("bob")) #should print bo
+
+# ejercicio 16 **********************************************************
+
 # Comando para imprimir en consola: /home/gitpod/.pyenv/shims/python /workspace/pythonbestpractice/index.py
 # Click derecho sobre el file que se quiere ver en la terminal y elegir la opcion: "Run Python File in Terminal"
