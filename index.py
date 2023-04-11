@@ -139,5 +139,16 @@ print(rapid("bob")) #should print bo
 
 # ejercicio 16 **********************************************************
 
+def dollar_to_euro(dollar_value):
+	return dollar_value * 0.89
+
+def euro_to_yen(euro_value):
+	return euro_value * 124.15
+
+####### ↓ YOUR CODE BELOW ↓ #######
+
+#print(dollar_to_euro(137))
+print(euro_to_yen(121.93))
+
 # Comando para imprimir en consola: /home/gitpod/.pyenv/shims/python /workspace/pythonbestpractice/index.py
 # Click derecho sobre el file que se quiere ver en la terminal y elegir la opcion: "Run Python File in Terminal"
