@@ -150,5 +150,15 @@ def euro_to_yen(euro_value):
 #print(dollar_to_euro(137))
 print(euro_to_yen(121.93))
 
+# ejercicio 17 **********************************************************
+
+# Your code goes here:
+def render_person(name, date, color, age, sex):
+    return name+' is a ' +age+ 'years old '+sex+' born in '+date+' with '+eyeColor+' eyes '
+
+
+# Do not edit below this line
+print(render_person('Bob', '05/22/1983', 'green', 23, 'male'))
+
 # Comando para imprimir en consola: /home/gitpod/.pyenv/shims/python /workspace/pythonbestpractice/index.py
 # Click derecho sobre el file que se quiere ver en la terminal y elegir la opcion: "Run Python File in Terminal"
